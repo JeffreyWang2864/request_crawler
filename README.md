@@ -16,3 +16,5 @@ There are two options for exporting the result ([outputer](https://github.com/Je
 in [crawler.py](https://github.com/JeffreyWang2864/urllib_simple_crawler/blob/master/crawl/crawler.py), line 36, You can simply replace:
 
 `self.outputer.writeTXT(path)` to `self.outputer.writeHTML(path)`
+
+![alt text](https://github.com/JeffreyWang2864/urllib_simple_crawler/blob/master/images/running.png)
