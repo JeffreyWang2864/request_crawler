@@ -18,8 +18,8 @@ by replacing:
 There are two options for exporting the result ([outputer](https://github.com/JeffreyWang2864/urllib_simple_crawler/blob/master/crawl/outputer.py)): `.html` or `.txt`
 
 
-in [crawler.py](https://github.com/JeffreyWang2864/urllib_simple_crawler/blob/master/crawl/crawler.py), line 36, You can simply replace:
+in [crawler.py](https://github.com/JeffreyWang2864/urllib_simple_crawler/blob/master/crawl/crawler.py), line 20, You can simply do:
 
-`self.outputer.writeTXT(path)` to `self.outputer.writeHTML(path)`
+`self.write_method = self.outputer.writeTXT` or `self.write_method = self.outputer.writeTXT`
 
 ![alt text](https://github.com/JeffreyWang2864/urllib_simple_crawler/blob/master/images/running.png)
