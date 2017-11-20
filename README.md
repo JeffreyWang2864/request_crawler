@@ -1,4 +1,8 @@
 # urllib_simple_crawler
+
+> last update: 11/20/2017
+> added threading feature
+
 This is a Python script
 
 A simple crawling program that download restaurant reviews from yelp.com with BeautifulSoup and urllib
