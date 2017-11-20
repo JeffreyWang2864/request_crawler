@@ -17,3 +17,8 @@ class manager:
         ret = self.queue.pop()
         self.archived_url.add(ret)
         return ret
+    def getAllUrls(self):
+        self.archived_url.update(self.queue)
+        ret = list(self.queue)
+        self.queue = set()
+        return ret
