@@ -1,6 +1,6 @@
 # urllib_simple_crawler
 
-> last update: 11/20/2017
+> last update: 12/06/2017
 >
 > added threading feature
 
